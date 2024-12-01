@@ -8,4 +8,4 @@
 `node --import tsx --test puzzles/day1/day1.test.ts` (or any other day)
 
 # To solve day's puzzle
-`node --import tsx puzzles/day1/day1.test.ts` (or any other day)
+`node --import tsx puzzles/day1/day1.ts` (or any other day)

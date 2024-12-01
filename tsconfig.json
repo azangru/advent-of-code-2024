@@ -3,6 +3,8 @@
     "lib": ["ESNext"],
     "module": "nodenext",
     "esModuleInterop": true,
-    "target": "ES2023"
+    "target": "ES2023",
+    "allowImportingTsExtensions": true,
+    "noEmit": true
   }
 }
