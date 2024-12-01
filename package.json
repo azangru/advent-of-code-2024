@@ -1,0 +1,14 @@
+{
+  "name": "advent-of-code-2023",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --import tsx --test puzzles/**/*.test.ts"
+  },
+  "devDependencies": {
+    "@types/node": "22.10.1",
+    "tsx": "4.19.2",
+    "typescript": "5.7.2"
+  }
+}
