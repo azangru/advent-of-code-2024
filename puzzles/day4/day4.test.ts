@@ -1,7 +1,8 @@
-import { test } from 'node:test';
+import { test, describe } from 'node:test';
 import assert from 'node:assert';
 
 import { solvePart1 } from './part1.ts';
+import { solvePart2 } from './part2.ts';
 
 // Calibration input for checking diagonals (with console.log)
 const calibrationInput = `
@@ -28,4 +29,9 @@ MXMXAXMASX
 
 test('Solution for part 1', () => {
   assert.strictEqual(solvePart1(testInput), 18)
+});
+
+
+test('Solution for part 2', () => {
+  assert.strictEqual(solvePart2(testInput), 9)
 });
